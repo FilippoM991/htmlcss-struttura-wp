@@ -34,6 +34,12 @@ main:after {
 #header_bottom {
     background-color: lightgrey;
     height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#header_bottom span {
+    font-size: 20px;
+    margin: 10px;
 }
 .left {
     display: inline-block;
@@ -42,7 +48,7 @@ main:after {
 .main_content {
     background-color: white;
     width: 60%;
-    height: 200px;
+    display: inline-block;
     float: left;
 
 }
